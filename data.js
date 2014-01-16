@@ -55,7 +55,7 @@ function makeData(inputData) {
 		var countryCode = country['eid'];
 		countryTableArray.push(countryCode);
 		for (var j = 0; j < countryData.length; j++) {
-			var dataPoint = (countryData[i]) ? countryData[i] : " ";
+			var dataPoint = (countryData[j]) ? countryData[j] : " ";
 			countryTableArray.push(dataPoint);
 		};
 		tableArray.push(countryTableArray);
